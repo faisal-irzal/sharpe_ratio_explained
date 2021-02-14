@@ -7,6 +7,5 @@ Subtracting the risk-free rate from the mean return allows an investor to better
 ## Formula
 
 <math>
-	C <box>dV<sub>out</sub><over>dt</box> = I<sub>b</sub>
-	&tanh;(<box>κ(V<sub>in</sub>-V<sub>out</sub>)<over>2</box>)
+Sharpe Ratio = R_p - Rf / sigma_p
 </math>
