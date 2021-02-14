@@ -6,5 +6,5 @@ Subtracting the risk-free rate from the mean return allows an investor to better
 
 ## Formula
 
-Sharpe Ratio = (R<sub>p</sub> - R<sub>f</sub>) <over> &sigma;<sub>p</sub>
+Sharpe Ratio = (R<sub>p</sub> - R<sub>f</sub>) / &sigma;<sub>p</sub>
 
