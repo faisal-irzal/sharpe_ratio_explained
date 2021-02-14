@@ -8,3 +8,9 @@ Subtracting the risk-free rate from the mean return allows an investor to better
 
 Sharpe Ratio = (R<sub>p</sub> - R<sub>f</sub>) / &sigma;<sub>p</sub>
 
+where,<br>
+R<sub>p</sub> = return of portfolio <br>
+R<sub>f</sub> = risk-free rate <br>
+&sigma;<sub>p</sub> = standard deviation of the portfolio's excess return
+
+
