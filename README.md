@@ -11,4 +11,6 @@ R<sub>p</sub> = return of portfolio <br>
 R<sub>f</sub> = risk-free rate <br>
 &sigma;<sub>p</sub> = standard deviation of the portfolio's excess return
 
+## What is a good Sharpe Ratio?
 
+Sharpe Ratios above 1.00 are generally considered “good”, as this would suggest that the portfolio is offering excess returns relative to its volatility. Having said that, investors will often compare the Sharpe Ratio of a portfolio relative to its peers. Therefore, a portfolio with a Sharpe Ratio of 1.00 might be considered inadequate if the competitors in its peer group have an average Sharpe Ratio above 1.00.
