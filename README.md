@@ -1,16 +1,20 @@
 # Sharpe Ratio Explained
 
-The Sharpe ratio was developed by Nobel laureate William F. Sharpe and is used to help investors understand the return of an investment compared to its risk. it is used when assessing the performance of investment management products and professionals. It consists of taking the excess return of the portfolio, relative to the risk-free rate, and dividing it by the standard deviation of the portfolio’s excess returns. Conceptually, what this provides is a measurement of the portfolio’s outperformance per unit of the portfolio’s volatility. All else being equal, portfolios with higher excess returns or lower volatility will show higher Sharpe Ratios, and vice-versa.
+The Sharpe ratio was developed by Nobel laureate William F. Sharpe and is used to help investors understand the return of an investment compared to its risk. it is used when assessing the performance of investment management products and professionals. It is defined as the difference between the returns of the investment and the risk-free return, divided by the standard deviation of the investment, i.e. it's volatility. Conceptually, what this provides is a measurement of the investment’s outperformance per unit of its volatility. 
+
+The Sharpe ratio characterizes how well the return of an asset compensates the investor for the risk taken. When comparing two assets versus a common benchmark, the one with a higher Sharpe ratio provides better return for the same risk (or, equivalently, the same return for lower risk).
+
+Namely, Sharpe ratio considers the ratio of a given stock's excess return to its corresponding standard deviation. Excess return is considered as a performance indicator of stock fund.
 
 ## Formula
 
 Sharpe Ratio = (R<sub>p</sub> - R<sub>f</sub>) / &sigma;<sub>p</sub>
 
 where,<br>
-R<sub>p</sub> = return of portfolio <br>
+R<sub>p</sub> = return of investment <br>
 R<sub>f</sub> = risk-free rate <br>
-&sigma;<sub>p</sub> = standard deviation of the portfolio's excess return
+&sigma;<sub>p</sub> = standard deviation of the investment (volatility)
 
-## What is a good Sharpe Ratio?
+## Benchmark
 
-Sharpe Ratios above 1.00 are generally considered “good”, as this would suggest that the portfolio is offering excess returns relative to its volatility. Having said that, investors will often compare the Sharpe Ratio of a portfolio relative to its peers. Therefore, a portfolio with a Sharpe Ratio of 1.00 might be considered inadequate if the competitors in its peer group have an average Sharpe Ratio above 1.00.
+In the Notebook, a benchmark is given to calculate Sharpe Ratio of the two stocks of giant tech Facebook & Amazon as portfolio. Furthermore, performance of the 500 largest stocks in the US in the S&P 500 will be used as benchmark of risk-free rate.
